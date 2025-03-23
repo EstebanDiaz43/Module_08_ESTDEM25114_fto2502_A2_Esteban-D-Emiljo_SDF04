@@ -1,0 +1,256 @@
+/* Basic CSS for the website */
+
+li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+ul { 
+    padding-left: 0%;
+}
+
+/* Footer-styles */
+
+.Footer-style {
+    background-color: #659f8f;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: block;
+    height: 28%;
+   
+}
+
+/* Container for the footer */
+
+.container {
+    padding: 6px 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+   
+}
+ 
+/* Footer-content */
+
+/* Coloum1 */
+
+.Subscribe {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+   
+}  
+
+
+.footer-heading1 {   
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 9rem;
+    
+}
+
+.emialdiv {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0%;
+    justify-items: left;
+    font-size: 10px;
+    margin-left: 9rem;
+
+}  
+
+
+.Email {   
+    background-color: rgb(230, 229, 229);
+    border-radius: 6px;
+    width: 130px;
+    cursor: pointer;
+    padding: 10px 20px 10px 10px;
+    margin-right: 12px;
+    color: black;
+    border-width: 0px;
+    
+      
+}
+
+.Subscribe-btn {
+    background-color: rgb(248, 118, 57);
+    border-radius: 6px;
+    color: black;
+    cursor: pointer;
+    font-size: 10px;
+    color: whitesmoke;
+    border-width: 0px;
+    padding: 2px 15px;
+    width: 80px;
+    
+}
+
+/* Coloum2 */
+
+.links {
+    text-align: left; 
+    color: black;
+    font-size: 14px;
+    margin-left: 15rem;
+}
+
+/* Coloum3 */
+
+.Technologies {
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    margin-left: 15rem;
+}
+
+/* Border */
+
+.border{
+    display: block;
+    border-top: 1px solid #cf501e;
+    margin-top: 5px;
+    margin-right: 9rem;
+    margin-left: 9rem;
+    padding-bottom: 15px;
+}
+
+/* Logo */
+
+.logo-img {
+    display: block;
+    align-content: left;
+    width: 160px;
+    margin-left: 9rem;
+    padding-bottom: 20px;
+
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .Footer-style {
+        height: 100%;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Subscribe {
+        margin-left: 4rem;
+        margin-right: 15rem;
+        padding-bottom: 20px;
+    }
+    .footer-heading1 {
+        font-size: 16px;
+        margin-left: 0%;
+    }
+    .emialdiv {
+        margin-left: 0%;
+    }
+    .Email {
+        margin-right: 0%;
+        font-size: 14px;
+    }
+    .Subscribe-btn {
+        margin-right: 0%;
+        margin-left: 1rem;
+        font-size: 16px;
+        width: 100px;
+    }
+    .links {
+        margin-left: 4rem;
+        font-size: 15px;
+    }
+    .Technologies {
+        margin-left: 12rem;
+        font-size: 15px;
+    }
+    .border {
+        margin-right: 4rem;
+        margin-left: 4rem;
+        padding-bottom: 25px;
+    }
+    .logo-img {
+        margin-left: 4rem;
+        width: 200px;
+    }
+}
+
+
+/* Responsive 2 */
+
+@media screen and (max-width: 376px) {
+
+    .Footer-style {
+        height: 100%;
+        
+    }
+    .container {
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .Subscribe {
+        margin-left: 2rem;
+        padding-bottom: 20px;
+    }
+    .footer-heading1 {
+        font-size: 18px;
+        margin-left: 0%;
+        width: 300px;
+    
+    }
+    .emialdiv {
+        flex-wrap: wrap;
+        margin-left: 0%;
+    }
+    .Email {
+        font-size: 14px;
+        width: 260px;
+
+    }
+    .Subscribe-btn {
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 290px;
+        padding: 10px 0px;
+        margin-left: 0%;
+    }
+    .links {
+        margin-left: 2rem;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    .Technologies {
+        margin-left: 2rem;
+        margin-right: 10rem;
+        font-size: 15px;
+    }
+    .border {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        padding-bottom: 20px;
+    }
+    .logo-img {
+        margin-left: 2rem;
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
